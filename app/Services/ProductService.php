@@ -34,7 +34,7 @@ class ProductService
             Product::query()
                 ->filters($filters)
                 ->orderBy('id')
-                ->paginate()
+                ->get()
         );
     }
 }
