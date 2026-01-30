@@ -55,17 +55,21 @@ Esse comando irá subir os seguintes serviços:
 
 Após os containers estarem rodando, execute os comandos abaixo para configurar a aplicação:
 
-1. Instalar dependências do PHP (caso não tenham sido instaladas no build):
+1. Copiar o arquivo de variáveis de ambiente:
+```bash
+docker compose exec app cp .env.example .env
+```
+2. Instalar dependências do PHP (caso não tenham sido instaladas no build):
 ```bash
 docker compose exec app composer install
 ```
 
-2. Gerar a chave da aplicação:
+3. Gerar a chave da aplicação:
 ```bash
 docker compose exec app php artisan key:generate
 ```
 
-3. Executar as migrações e popular o banco de dados:
+4. Executar as migrações e popular o banco de dados:
 ```bash
 docker compose exec app php artisan migrate --seed
 ```
