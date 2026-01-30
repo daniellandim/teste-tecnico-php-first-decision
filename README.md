@@ -18,8 +18,8 @@ O objetivo é fornecer um ambiente padronizado, simples de subir e fácil de ava
 ### 1️⃣ Clonar o repositório
 
 ```bash
-git clone <url-do-repositorio>
-cd project-root
+git clone git@github.com:daniellandim/teste-tecnico-php-first-decision.git
+cd  teste-tecnico-php-first-decision
 ```
 
 ---
