@@ -13,6 +13,7 @@ O objetivo é fornecer um ambiente padronizado, simples de subir e fácil de ava
 
 ---
 
+
 ## 📁 Estrutura do Projeto
 
 ```bash
@@ -22,17 +23,17 @@ O objetivo é fornecer um ambiente padronizado, simples de subir e fácil de ava
 ├── docker/         # Arquivos de infraestrutura (PHP, Nginx, Frontend)
 ├── docker-compose.yml
 └── README.md
+````
 
 ## ▶️ Como Executar a Aplicação
 
-### 1️⃣ Clonar o repositório
-
+### 1️⃣ Clonar o repositório e entrar na pasta
 ```bash
 git clone git@github.com:daniellandim/teste-tecnico-php-first-decision.git
+```
+```bash
 cd teste-tecnico-php-first-decision
 ```
-
----
 
 ### 2️⃣ Subir os containers com Docker
 
