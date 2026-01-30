@@ -77,6 +77,15 @@ docker compose exec app vendor/bin/phpunit
 ```
 
 ---
+---
+## 🔐 Credenciais de Acesso (Ambiente de Teste)
+
+Usuário padrão criado via seed:
+
+- **E-mail:** test@example.com
+- **Senha:** password
+
+---
 
 ## 🖼️ Prints / GIFs
 
